@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nacionalidade</title>
+</head>
+<body>
+    <h1>Conferir nacionalidade</h1>
+    Onde voce nasceu? <input id="nac">
+    <input type="button" value="conferir" onclick="verificar()">
+ 
+<div id="res"></div>
+<script>
+    function verificar(){
+    var loc = window.document.getElementById('nac')
+    var res = window.document.querySelector('div#res')
+    var brn = (loc.value)
+if(brn == 'br'){
+    res.innerHTML = 'Voce é brasileiro'
+}else {
+    res.innerHTML = 'Voce é estrangeiro'
+}
+
+
+
+    }
+
+
+
+
+
+
+</script>
+
+
+
+
+
+
+    
+</body>
+</html>

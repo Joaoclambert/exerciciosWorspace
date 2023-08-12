@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grouping Tags</title>
+  <style>
+body {
+font-family: Arial, Helvetica, sans-serif;
+background-color: rgb(159, 240, 240);
+margin: 0px;
+}
+header {
+  background-color: beige;
+  padding: 10px;
+  margin: 10px;
+}
+main {
+  background-color: beige;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px 0px;
+  box-shadow: inset 2px 4px 20px rgba(0, 0, 0, 0.279)
+}
+article {
+  background-color: lightgray;
+  padding: 1px;
+}
+article > aside {
+  background-color: rgb(5, 229, 229);
+}
+nav {
+background-color: brown;
+padding: 3px;
+box-shadow: 2px 2px rgba(0, 0, 0, 0.345);
+}
+h1 {
+  box-shadow: inset 2px 4px 20px rgba(0, 0, 0, 0.279)
+    ;
+}
+nav > a {
+text-decoration: none;
+color: wheat;
+font-weight: bold;
+margin-right: 30px;
+}
+nav > a:hover {
+text-decoration: underline;
+}
+
+footer {
+  background-color: brown;
+  color: beige;
+  padding: 1px;
+  margin: 0px;
+  text-align: center;
+}
+footer > p {
+  margin: 0px;
+}
+
+#p1 {
+  background-color: chocolate;
+  color: bisque;
+}
+#p2 {
+  background-color: rgb(241, 123, 39);
+  color: bisque;
+}
+div#bola {
+  height: 100px;
+width: 100px;
+margin: 10px;
+background-color: beige;
+border-radius: 50%;
+
+}
+
+  </style>
+</head>
+<body>
+  <header>
+<h1>Meu site</h1>
+<nav>
+<a href="#">link</a>
+<a href="#">link</a>
+<a href="#">link</a>
+<a href="#">link</a>
+</nav>
+  </header>
+  <main>
+<section id="Assuntos">
+  <p id="p1">Esportes e tecnologia</p>
+</section>
+<section id="Noticias">
+  <h2>Noticias sobre o Brasil</h2>
+  <p id="p2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt porro velit sed quibusdam molestias distinctio nihil impedit, voluptate sint optio deserunt repudiandae soluta est eius perspiciatis delectus eveniet maxime! Reiciendis.</p>
+  <article>
+<aside>Artigo escrito po Jose da Silva</aside>
+  </article>
+  <article>
+
+
+  </article>
+
+</section>
+
+
+
+  </main>
+<footer>Desenvolvido pelo cursoemvideo</footer>
+
+  <div id="bola"></div>
+</body>
+</html>
